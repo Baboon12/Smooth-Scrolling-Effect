@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    height: 100vh;
+    padding: 10em;
+
+    h1{
+        font-size: 3em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    &:first-child{
+        background-color: rgb(39, 39, 39);
+        color: #fff;
+    }
+
+    &:last-child{
+        background-color: rgb(5, 42, 99);
+        color: #fff;
+    }
+}
+
+.custom-h1{
+    opacity: 0;
+    transition: transform 0.2s;
+}
+
+.scroll-class2{
+    opacity: 1;
+    transform: translateX(10px, 50%)
+}
+
+.custom-p{
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+.scroll-class1{
+    opacity: 1;
+}
