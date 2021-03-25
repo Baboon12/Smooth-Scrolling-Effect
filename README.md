@@ -5,7 +5,8 @@ Implemented a smooth scrolling effect and parallax using locomotive scroll.
 <ol>
 <li> Fork and Download this repository </li>
 <li> Open index.html in browser </li>
-<li> Let the browser load the animation and scroll to see the effect </li>
+<li> Let the browser load the animation and scroll to see the effect </li> 
+</ol>
 
 Any modifications will be appreciated! <br/>
 Thank You
